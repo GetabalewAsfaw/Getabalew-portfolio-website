@@ -540,31 +540,43 @@
 <!--
         - #CONTACT
       -->
-<article class="contact" data-page="contact">
-<header>
-<h2 class="h2 article-title">Contact</h2>
-</header>
-<section class="mapbox" data-mapbox="">
-<figure>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15765.023106337032!2d38.7848125!3d8.9485625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b859d161f341f%3A0x54c70bd90fe7aa58!2sHUBBITS%20Workspace%20Solutions!5e0!3m2!1sen!2set!4v1732743682347!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></figure>
-</section>
-<section class="contact-form">
-<h3 class="h3 form-title">Contact Form</h3>
-<form action="#" class="form" data-form="">
-<div class="input-wrapper">
-<input class="form-input" data-form-input="" name="fullname" placeholder="Full name" required="" type="text"/>
-<input class="form-input" data-form-input="" name="email" placeholder="Email address" required="" type="email"/>
-</div>
-<textarea class="form-input" data-form-input="" name="message" placeholder="Your Message" required=""></textarea>
-<button class="form-btn" data-form-btn="" disabled="" type="submit">
-<ion-icon name="paper-plane"></ion-icon>
-<span>Send Message</span>
-</button>
-</form>
-</section>
-</article>
-</div>
-</main>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+      
+        <!-- Google Maps Embed -->
+        <section class="mapbox" data-mapbox="">
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15765.023106337032!2d38.7848125!3d8.9485625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b859d161f341f%3A0x54c70bd90fe7aa58!2sHUBBITS%20Workspace%20Solutions!5e0!3m2!1sen!2set!4v1732743682347!5m2!1sen!2set"
+              width="600"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </figure>
+        </section>
+      
+        <!-- Contact Form -->
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="https://formspree.io/f/mjkvlbzp" method="POST" class="form" data-form="">
+            <div class="input-wrapper">
+              <input class="form-input" data-form-input="" name="fullname" placeholder="Full name" required="" type="text" />
+              <input class="form-input" data-form-input="" name="email" placeholder="Email address" required="" type="email" />
+            </div>
+            <textarea class="form-input" data-form-input="" name="message" placeholder="Your Message" required=""></textarea>
+            <button class="form-btn" data-form-btn="" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+      
 <!--
     - custom js link
   -->
